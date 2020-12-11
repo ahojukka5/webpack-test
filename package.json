@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/ahojukka5/webpack-test/issues"
   },
-  "homepage": "https://github.com/ahojukka5/webpack-test#readme"
+  "homepage": "https://github.com/ahojukka5/webpack-test#readme",
+  "devDependencies": {
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  }
 }
