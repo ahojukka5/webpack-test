@@ -1,7 +1,13 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
   entry: './src/index.js',
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'Webpack test page',
+    }),
+  ],
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'main.js',
