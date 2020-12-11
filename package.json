@@ -1,0 +1,22 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "Testing webpack configurations",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahojukka5/webpack-test.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Jukka Aho <ahojukka5@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahojukka5/webpack-test/issues"
+  },
+  "homepage": "https://github.com/ahojukka5/webpack-test#readme"
+}
