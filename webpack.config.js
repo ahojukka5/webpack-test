@@ -8,6 +8,7 @@ const config = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Webpack test page',
+      template: 'index.html',
     }),
   ],
   output: {
