@@ -24,6 +24,14 @@ const config = {
           presets: ['@babel/preset-react'],
         },
       },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(jpg|png|gif|jpeg|woff|woff2|eot|ttf|svg)$/,
+        loader: 'url-loader',
+      },
     ],
   },
   devServer: {
